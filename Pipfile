@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+awsebcli = "*"
+pipenv-to-requirements = "*"
+
+[packages]
+django = "==2.2.5"
+pillow = "*"
+django-countries = "*"
+django-seed = "*"
+django-dotenv = "*"
+requests = "*"
+pipenv-to-requirements = "*"
+psycopg2 = "==2.8.4"
+sentry-sdk = "==0.13.2"
+boto3 = "*"
+django-storages = "*"
+awsebcli = "*"
+
+[requires]
+python_version = "3.7"
