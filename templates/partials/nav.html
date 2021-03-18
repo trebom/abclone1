@@ -1,5 +1,6 @@
 {% load i18n %}
 <ul class="flex items-center text-sm font-medium">
+    <li><a href="http://127.0.0.1:8000/admin">admin</a></li>
     {% if user.is_authenticated %}
     <li class="nav_link">
         <a href="{% url 'users:switch-hosting' %}">
